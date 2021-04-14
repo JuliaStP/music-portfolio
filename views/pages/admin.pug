@@ -1,0 +1,44 @@
+extends ../_template-admin
+
+block content
+  .wrapper
+    header.admin-header
+      .container.admin-header__container
+        .admin-header__title Admin Panel
+        a(href="/").admin-header__link Вернуться на сайт
+    section.admin-content
+      .container.admin-content__container
+        .form-container
+          form.form-skill(action='/admin/skills' method="POST")
+            .form-title Counters
+            if (msgskill)
+              .status= msgskill
+            label.form-skill__input-line 
+              span.form-skill__input-title Age
+              input(name="age" type="number").form-skill__input
+            label.form-skill__input-line 
+              span.form-skill__input-title Concerts
+              input(name="concerts" type="number").form-skill__input
+            label.form-skill__input-line 
+              span.form-skill__input-title Number of cities
+              input(name="cities" type="number").form-skill__input
+            label.form-skill__input-line 
+              span.form-skill__input-title Years on stage
+              input(name="years" type="number").form-skill__input
+            .form__btns.form-skill__input-line
+              button(type="submit").button Save
+          form.form-upload(action='/admin/upload' method="POST" enctype="multipart/form-data")
+            .form-title Add product
+            if (msgfile)
+              .status= msgfile
+            .form-upload__input-line
+              .form-upload__wraper
+                label.form-upload__label
+                  input(name="src" type="file" required accept="image/*").form-upload__input-file
+                  span.form-upload__input-file-title Upload picture 
+            .form-upload__input-line
+              input(name="name" type="text" placeholder="Название").form-upload__input
+            .form-upload__input-line
+              input(name="price" type="text" placeholder="Цена").form-upload__input
+            .form-upload__input-line.form-upload__input-line--btn
+              button(type="submit").button Add

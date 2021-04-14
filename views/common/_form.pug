@@ -1,0 +1,19 @@
+section.form
+  .container
+    if (msgemail)
+      .status= msgemail
+    .form__subtitle.subtitle Contacts
+    h2.form__title.title Let's talk
+    form(action="/" method="POST").form-email
+      .form-email__line
+        label.form-email__label(for="") Name *
+        input.form-email__input(type="text" name="name")
+      .form-email__line
+        label.form-email__label(for="") Email *
+        input.form-email__input(type="email" name="email")
+      .form-email__line
+        label.form-email__label(for="") Message
+        textarea(name="message").form-email__textarea
+      .form-email__line
+        button(type="submit").form-email__button.button Send
+    

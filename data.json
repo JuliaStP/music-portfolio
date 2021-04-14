@@ -1,0 +1,81 @@
+{
+  "skills": [
+    {
+      "number": "12",
+      "text": "Age when I started to play violin"
+    },
+    {
+      "number": "76",
+      "text": "Played concerts"
+    },
+    {
+      "number": "30",
+      "text": "Number of cities in my recent tour"
+    },
+    {
+      "number": "20",
+      "text": "Years on stage "
+    }
+  ],
+  "products": [
+    {
+      "src": "./assets/img/products/Work1.jpg",
+      "name": "Speaker",
+      "price": 300
+    },
+    {
+      "src": "./assets/img/products/Work2.jpg",
+      "name": "Wine - Inspiration",
+      "price": 150
+    },
+    {
+      "src": "./assets/img/products/Work3.jpg",
+      "name": "Sunglasses",
+      "price": 300
+    },
+    {
+      "src": "./assets/img/products/Work4.jpg",
+      "name": "Scarf",
+      "price": 200
+    },
+    {
+      "src": "./assets/img/products/Work5.jpg",
+      "name": "Favorite outfit",
+      "price": 400
+    },
+    {
+      "src": "./assets/img/products/Work6.jpg",
+      "name": "Travelling mug",
+      "price": 50
+    },
+    {
+      "src": "./assets/img/products/Work7.jpg",
+      "name": "Manual typewriter",
+      "price": 700
+    },
+    {
+      "src": "./assets/img/products/Work8.jpg",
+      "name": "Lamp",
+      "price": 250
+    },
+    {
+      "src": "./assets/img/products/Work9.jpg",
+      "name": "Money sack",
+      "price": 300
+    }
+  ],
+  "users": [
+    {
+      "email": "julia@mail.ru",
+      "salt": "56e907870a014ba8dc7d2bc454be949c",
+      "hash": "c9fa0df9b4209bc1124847c1a249adebd4f39e97302cf2638ac83e7b019073cd73bab028b749f11d13211c2641fc84c5135d855bd3ad184fb2e74fba46bffac0"
+    }
+  ],
+  "messages": [
+    {
+      "name": "Iuliia Andreeva",
+      "email": "andreeva_julia@hotmail.com",
+      "message": "вапвап"
+    }
+  ]
+}
